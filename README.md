@@ -22,7 +22,6 @@ pip install pandas numpy seaborn matplotlib scikit-learn statsmodels jupyter
 4. Optional: adjust the “Prediction” cell inputs and choose model ('logreg'|'svc'|'rf'|'gb').
 
 Notes:
-- The split is chronological (no shuffling) to respect time order.
 - Models: Logistic Regression, SVC, RandomForest, GradientBoosting with StandardScaler in pipelines.
 - Metrics include F1, ROC AUC, PR AUC, and log loss.
 
